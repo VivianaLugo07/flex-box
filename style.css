@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+/*importa fuentes*/
+
+*{ /*a todos los elementos se le aplica esto */
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+/*Estilos header*/
+header{
+    display: flex;
+    background-color: black;
+    color: white;
+    padding: 1rem 2.5rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-image-container{
+    width: 10%;
+    background-color: white;
+}
+
+.header-image-container img{
+    width: 100%;
+}
+
+header form{
+    width: 35%;
+}
+
+header form input{
+    width: 35%;
+}
+
+header form input{
+    width: 70%;
+    padding: 1rem 2rem;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.458);
+    border-radius: 100vw 0 0 100vw;
+
+}
+
+header form input:focus{
+    border: 1px solid rgba(220, 20, 60, 0.466);
+    outline: none;
+    transition: 200ms;
+}
+
+header form button{
+    border: 1px solid crimson;
+    background-color: crimson;
+    color: white;
+    border-radius: 0 100vw 100vw 0;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+header form button:hover{
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: black;
+}
+
+header ul{
+    display: flex;
+    gap: 2rem;
+}
+
+header ul li{
+    transition: 200ms;
+    font-style: italic;
+}
+
+header ul li:hover{
+    transform: scale(1.2);
+}
+
+.cards-container{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: black; /*da el color de las tarjetas*/
+    color: white; /*color de las letras que estan en las tarjetas*/
+    /*el div tiene como espacio 1000px*/
+    width: 25rem; /*ancho (rem toma en cuenta el tamaño fuente de la raíz)*/
+    padding: 2rem 3rem; 
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.card-info h1{
+    font-size: 30px;
+    font-style: italic;
+}
+
+.card-info p{
+    font-size: 20px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+
+.card button{
+    width: 8rem;
+    border: 1px solid white;
+    background-color: black;
+    color: white;
+    border-radius: 100vw;
+    padding: 0.5rem 1rem;
+    transition: 200ms;
+    font-style: italic;
+    font-weight: 500;
+    align-self: flex-end;
+}
+
+
+.card-image-container img{
+    width: 100%;
+    border-radius: 5px;
+}
+.card-image-container{
+    width: 100%;
+}
+
+.card-info{
+    width: 90%;
+}
+
+.card button:hover{
+    border: 1px solid rgba(255, 255, 255, 0);
+    background-color: crimson;
+}
