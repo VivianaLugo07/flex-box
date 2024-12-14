@@ -272,10 +272,6 @@ footer{
 
 .box{
     background-color: crimson;
-    /*mueve los elementosposition: relative;*/
-    /*position: absolute; saca del flujo orginial de como estaban acomodados los elementos*/
-    /*position: sticky; se pega hasta que llega al final del contenedor*/
-    /*position: fixed; combinación entre el sticky y el absolute, ya que saca el elemento pero lo mantiene pegado*/
     position: fixed;
     color: white;
     bottom: 5rem;
